@@ -1,0 +1,73 @@
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    border: solid;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.portion-left {
+    background-color: #292A2D;
+    font-size: 50px;
+    line-height: 62px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #5FB2F6;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0;
+    border: 0;
+    height: 600px;
+    width: 100;
+    display: flex;
+    place-items: center;
+    border: solid;
+    height: 100vh;
+    justify-content: center;
+    flex: 1;
+}
+
+.portion-right {
+    
+    border: solid;
+}
+
+
+
+.subcontainer-left{
+    flex: 1;
+
+    /* height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid; */
+}
+
+.subcontainer-right{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    padding-left: 50px;
+    margin: 20;
+    border: 20;
+    flex: 1;
+
+}
+
+.music{
+    border: solid;
+    align-items:flex-start;
+    width: 500px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 50px;
+    border: 200px;
+    text-transform: uppercase;
+
+}
